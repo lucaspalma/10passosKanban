@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>10 passos para melhorar processos com Kanban</title>
+
+	<meta name="description" content="10 passos para o Kanban">
+	<meta name="author" content="Lucas Takeshi R. Palma @lucaspalma">
+
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/freedomTheme.css" id="theme">
+	<link rel="stylesheet" href="css/aleatorio.css">
+
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<script>
+		document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+	</script>
+
+	<!-- font imports -->
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Londrina+Sketch' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+
+	<!-- my css -->
+	<link rel="stylesheet" href="css/talk.css">
+</head>
+
+<body>
+
+<div class="reveal linear center">
+
+<!-- Any section element inside of this container is displayed as a slide -->
+<div class="slides">
+	<section class="cover">
+		<h1>10 passos para melhorar processos com </h1>
+		<h1 class="negative">Kanban</h1>
+		<div class="whoAmI">
+			<h4>Lucas Takeshi Rodrigues Palma</h4>
+			<a href="http://github.com/lucaspalma">github.com/lucaspalma</a>
+		</div>
+	</section>
+	<section class="Motivacao">
+		<section>
+			<h4>Quantos aqui otimizaram/melhoraram seu processo no último ano?</h4>
+			<h4 class="fragment">Nos últimos 6 meses?</h4>
+			<h4 class="fragment">Neste mês?</h4>
+			<h4 class="fragment">Esta semana?</h4>
+			<h4 class="fragment">Hoje?</h4>
+		</section>
+		<section>
+			<h3>Por que melhorar um processo?</h3>
+		</section>
+		<section>
+			<h4>As coisas mudam rápido</h4>
+			<h3 class="problemas">
+				<span class="fragment neutral visible" data-fragment-index="0">Pessoas</span>
+				<span class="fragment extra visible" data-fragment-index="3">Tecnologias</span>
+				<span class="fragment negative visible" data-fragment-index="1">Mercado</span>
+				<span class="fragment positive visible" data-fragment-index="2">Empresa</span>
+			</h3>
+		</section>
+	</section>
+	<section class="MelhoriaContinua">
+		<section>
+			<h5 class="fragment highlight-red cursiveFont">Individuals and interactions over processes and tools</h5>
+			<h5 class="cursiveFont">Working software over comprehensive documentation</h5>
+			<h5 class="cursiveFont">Customer collaboration over contract negotiation</h5>
+			<h5 class="fragment highlight-red cursiveFont">Responding to change over following a plan</h5>	
+		</section>
+		<section>
+			<h2 class="cursiveFont">At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.</h2>
+		</section>
+	</section>
+	<section class="Kanban">
+		<section>
+			<h1 class="negative">Como?</h1>
+		</section>
+		<section>
+			<h2><span class="gigante">K<span>anban</h2>
+			<h5 class="fragment">com K maiúsculo</h5>
+			<h5 class="fragment">modelo de desenvolvimento <br><br>Lean + Ágil</h5>
+		</section>
+		<section class="valoresKanban">
+			<div>
+				<img src="images/visibilidade.jpg" class="fragment"/>
+				<img src="images/evolucao.jpg" class="fragment"/>
+			</div>
+		</section>
+		<section>
+			<img src="images/plugin.png"/>
+		</section>
+	</section>
+	<section class="Passos">
+		<section>
+			<div>
+				<h2>Os 10 passos para adotar coisas de Kanban</h2>
+			</div>
+		</section>
+		<section>
+			<img src="images/caelumweb.png"/>
+		</section>
+	</section>	
+	<section class="Passo1">
+		<section>
+			<h2>Passo 1: Visualize todo o fluxo de trabalho</h2>
+		</section>
+		<section>
+			<img src="images/mapeamentoCadeiaValor.png"/>
+		</section>
+		<section class="full">
+			<img src="images/kanban1.png" />
+		</section>
+		<section class="full">
+			<img src="images/kanban2.png" />
+		</section>
+		<section>
+			<h1 class="negative">AVISO</h1>
+			<h1 class="fragment">Não tente melhorar ainda</h1>
+			<h3 class="fragment">Isso virá mais para frente</h3>
+		</section>
+	</section>
+	<section class="Passo2">
+		<section>
+			<h2>Passo 2: Trabalho em progresso (WIP)</h2>
+		</section>
+		<section>
+			<h3>Exemplo:</h3>
+			<h4 class="fragment">Meu time entrega 4 histórias a cada semana</h4>
+			<h4 class="fragment">Tenho 80 histórias sendo desenvolvidas atualmente</h4>
+			<h4 class="fragment">Em quantas semanas eu termino tudo?</h4>
+		</section>
+		<section>
+			<h3>20 semanas<span class="fragment">(= 80/4)</span></h3>
+			<h5 class="fragment">Lei Little</h5>
+			<span class="fragment positive">Tempo de ciclo = WIP / Produção por unidade de tempo</span>
+		</section>
+		<section>
+			<h3>Como reduzir o tempo de ciclo de 20 para 10?</h3><br>
+			<h4 class="fragment">Dobra-se a produção</h4>
+			<h4 class="fragment"><span class="fragment highlight-red">Diminui o WIP</span></h4>
+		</section>
+		<section class="full">
+			<img src="images/kanban3.png"/>
+		</section>
+	</section>	
+	<section class="Passo3">
+		<section>
+			<h2>Passo 3: Estabelecer políticas explícitas para garantia de qualidade</h2>
+		</section>
+		<section class="full">
+			<img src="images/kanban4.png"/>
+		</section>
+	</section>
+	<section class="Passo4">
+		<section>
+			<h2>Passo 4: Ajustar cadências</h2>
+		</section>
+		<section>
+			<h3>Como eu sei se minha funcionalidade está certa?</h3>
+			<h3 class="fragment">Preciso do feedback do usuário</h3>		
+		</section>
+		<section>
+			<h3 class="positive">Entraga frequente e feedback rápido</h3>
+			<h3 class="fragment">Mas quantas histórias eu envio por deploy?</h3>
+		</section>
+		<section>
+			<h4>Exemplo: meu desenvolvedor ganha 1 real por minuto </h4>
+			<h4>Fazer o deploy leva em torno de 10 minutos de 1 desenvolvedor</h4>
+		</section>
+		<section>
+			<h4>Tenho 10 histórias sendo desenvolvidas</h4>
+			<h4 class="fragment">Deployar 1 de cada vez, qual o custo total? <span class="fragment negative">100 reais</span></h4>
+			<h4 class="fragment">E 2 por vez? <span class="fragment negative">50 reais</span></h4>
+			<h4 class="fragment">Se separar em 2 deploys (5 de cada vez)? <span class="fragment negative">20 reais</span></h4>
+			<h4 class="fragment">Deployar as 10 juntas? <span class="fragment negative">10 reais</span></h4>
+		</section>
+		<section>
+			<h4>Mas cada história que eu entrego gera uma economia para a empresa de 5 reais</h4>
+			<h4 class="fragment">Se segurar 10 histórias, quanto deixei de ganhar? <span class="fragment negative">50 reais</span></h4>
+			<h4 class="fragment">Se segurar 5 histórias para 2 deploys? <span class="fragment negative">25 reais</span></h4>
+			<h4 class="fragment">Se segurar de 2 em 2 histórias? <span class="fragment negative">10 reais</span></h4>
+			<h4 class="fragment">Se segurar 1 por vez? <span class="fragment negative">5 reais</span></h4>
+		</section>
+		<section class="full">
+			<img src="images/cadencia.png"/>
+		</section>			
+	
+
+	</section>		
+	<section class="Passo5">
+		<section>
+			<h2>Passo 5: Medir o fluxo</h2>
+		</section>
+		<section class="full">
+			<img src="images/cfd.jpg"/>
+		</section>
+		<section class="full">
+			<img src="images/tempoCiclo.png"/>
+		</section>
+		<section class="full">
+			<img src="images/defeitos.png"/>
+		</section>
+		<section class="full">
+			<img src="images/parados.png"/>
+		</section>
+	</section>
+	<section class="Passo6">
+		<section>
+			<h2>Passo 6: Priorização</h2>
+		</section>
+		<section class="full">
+			<h5>Como informar qual a prioridade no kanban?</h5>
+			<img src="images/kanban3.png"/>
+		</section>
+		<section class="full">
+			<img src="images/kanban5.png"/>
+		</section>
+	</section>
+	<section class="Passo7">
+		<section>
+			<h2>Passo 7: Identificação de classes de serviço</h2>
+		</section>
+		<section>
+			<h4>Suponha que em média, tenho 10 histórias sendo desenvolvidas</h4>
+			<h4 class="fragment">Surge um bug que está atrapalhando metade dos seus usuários</h4>
+			<h4 class="fragment">O que você faz?</h4>
+		</section>
+		<section>
+			<h1 class="negative">Depende</h1>
+		</section>
+		<section>
+			<h4>Se o bug está impedindo que metade dos meus usuários façam login no sistema?<span class="fragment negative">Urgente</span></h4>
+		</section>
+		<section>
+			<h4>O bug é só um elemento desalinhado nos navegadores firefox?<span class="fragment negative">Mó da para esperar</span></h4>
+		</section>
+		<section>
+			<h4>O financeiro não consegue fazer o pagamento dos instrutores? <span class="fragment">Mas o pagamento é dia 25 e estamos no primeiro dia do mês.</span></h4>
+		</section>
+		<section>
+			<h2>Descobrir os tipos de trabalho</h2>
+			<h3 class="positive">Histórias dos usuários, bugs e infra</h3>
+		</section>
+		<section>
+			<h2>Quebrar em subtipos</h2>
+			<h3 class="positive">Cosmético, Crítico, Impeditivo, Com prazo</h3>
+		</section>
+		<section>
+			<h2>Classes de serviço</h2>
+			<h5 class="fragment">Traduzindo: qual a prioridade dessa coisa no kanban?</h5>
+		</section>
+		<section>
+			<h2>Classe Padrão</h2>
+			<h5>Tipos de trabalho: História do usuário em geral, infra, bugs cosméticos</h5>
+			<h5>Tratamento especial: Nenhum</h5>
+		</section>
+		<section>
+			<h2>Classe Prioritária</h2>
+			<h5>Tipos de trabalho: Bugs Críticos</h5>
+			<h5>Tratamento especial: Ganha prioridade em todos os estágios</h5>
+		</section>
+		<section>
+			<h2>Classe de Prazo Fixo</h2>
+			<h5>Tipos de trabalho: Histórias do usuário ou bugs com prazo</h5>
+			<h5>Tratamento especial: Tem prioridade em todos os estágios, se o prazo estiver próximo; caso contrário é tratada como uma classe de serviço padrão.</h5>
+		</section>
+		<section>
+			<h2>Classe Urgente</h2>
+			<h5>Tipos de trabalho: Bug impeditivo</h5>
+			<h5>Tratamento especial: Rompe os limites do WIP, para todo o WIP existente; implantação emergencial</h5>
+		</section>
+		<section class="full">
+			<img src="images/kanban6.png"/>
+		</section>
+	</section>
+	<section class="Passo8">
+		<section>
+			<h2>Passo 8: Gerenciamento do fluxo</h2>
+		</section>
+		<section class="full">
+			<img src="images/observe.jpg">
+		</section>
+		<section class="full">
+			<img src="images/kanban7.png"/>
+		</section>
+	</section>
+	<section class="Passo9">
+		<section>
+			<h2>Passo 9: Estabelecer SLAs</h2>
+		</section>
+		<section>
+			<h4>Quando o cliente passa um conjunto de tarefas, o que ele está interessado em saber?
+			<img src="images/tempo.jpg" class="fragment">
+		</section>
+		<section>
+			<h3>Com tantas métricas e controles de fluxo até rola estimar tempo</h3>
+			<h4 class="positive">Acordos de níveis de serviços</h4>
+		</section>
+		<section>
+			<h2>Classe padrão SLA:</h2>
+			<h5>Média: 15 dias</h5>
+			<h5>90% dentro do prazo de 21 dias</h5>
+			<h5>Todas no prazo máximo de 30 dias</h5>
+		</section>
+	</section>
+	<section class="Passo10">
+		<section>
+			<h2>Passo 10: Melhoria contínua</h2>
+			<h3 class="fragment negative">Só agora?</h3>
+		</section>
+		<section>
+			<img src="images/evolucao.jpg">
+		</section>
+		<section>
+			<h3>Visualizando todo processo é possível melhorar aos poucos todos os dias</h3>
+		</section>
+		<section>
+			<h3>Melhorar e testar mudanças com dados reais e visíveis</h3>
+		</section>
+	</section>
+	<section>
+		<img src="images/vlw.jpg">
+	</section>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.min.js"></script>
+
+<script>
+	Reveal.initialize({
+		controls: true,
+		progress: true,
+		history: true,
+		center: true,
+		dependencies: [
+			{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+			{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+			{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+		]
+	});
+
+</script>
+
+</body>
+</html>
